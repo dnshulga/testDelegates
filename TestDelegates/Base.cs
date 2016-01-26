@@ -14,6 +14,7 @@ namespace TestDelegates
         public void Output(string _name, Print method)
         {
             method(this.Name);
+            //Console.WriteLine(_name + " is using the Delegate method");
         }
     }
 }
